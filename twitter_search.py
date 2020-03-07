@@ -8,10 +8,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # USER INPUTS
-WORDS = [u'#covidー19']
-DB_NAME = ['covid']
+WORDS = ['']
+DB_NAME = ['']
 
-# These are stored locally in a .env file. Add these to your git ignore.
+# These are stored locally in a .env file. Add these to your .gitignore.
 MONGO_HOST= os.environ.get("MONGO_HOST")
 
 CONSUMER_KEY = os.environ.get("CONSUMER_KEY") #
